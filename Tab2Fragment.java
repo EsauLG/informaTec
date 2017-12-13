@@ -34,7 +34,7 @@ public class Tab2Fragment extends Fragment implements CustomAdapter.ListItemClic
         View view = inflater.inflate(R.layout.tab1_fragment, container, false);
         btnTest =(Button) view.findViewById(R.id.rv_numbers);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this); //AQUI TENGO ERROR 
         mNumbersList.setLayoutManager(layoutManager);
 
         mNumbersList.setHasFixedSize(true);
